@@ -2,14 +2,14 @@ const Discord = require('discord.js');
 
 exports.run = (client, message, args, tools) => {
 
-  let pages = ['**Komutlar**\n\nt!afk = Afk Olursunuz.  \nt!yardım = BOT Komutlarını Atar. \nt!ping = BOTun Pingini Gösterir. \nt!i = BOT İstatistiklerini Atar.', '**Komutlar 2**\n\nt!ban = Ban Atar. \nt!banaç = Banı Açar. \nt!bilgi = Bot Hakkında Bilgi Verir. \nt!duyuru = Bot Duyuru Yapar. \nt!kick  = İstediğiniz Kişiyi Sunucudan Atar. \n', '**Komutlar 3**\n\n\nt!yaz = Bota İstediğiniz Şeyi Yazdırırsınız. \nt!sunucubilgi = Sunucu Bilsigini Gösterir. \nt!tavsiye = Tavsiye Verir. \nt!temizle = Mesajları Siler', '**Komutlar 4**\n\nt!uyar = Kişiyi Uyarırsınız. \ng!yenilikler = Yeniliklerlen Haberdar Olursunuz. \nt!saat = Türkiye Saatini Gösterir \nt!ascii = Yaz Ve Gör :) \nt!Atam = Değer Ve Kalbimizde Taşıdığımız Atamız <3  \nt!çekiliş = Çekiliş Yapar. \nt!yapımcım = Yapımcıyı Gösterir.', '**Komutlar 5** \n\nt!havadurumu = İstediginiz Şehrin Hava Durumunu Gösterir ']; // Sayfalar
+  let pages = ['**Komutlar**\n\n+yardım = BOT Komutlarını Atar. \n+ping = BOTun Pingini Gösterir. \n+i = BOT İstatistiklerini Atar.', '**Komutlar 2**\n\n+bilgi = Bot Hakkında Bilgi Verir. \n+duyuru = Bot Duyuru Yapar. \n+kick  = İstediğiniz Kişiyi Sunucudan Atar. \n', '**Komutlar 3**\n\n\n+sunucubilgi = Sunucu Hakkında Bilgi  Gösterir. \n+temizle = Mesajları Siler', '**Komutlar 4**\n\n+yenilikler = Yeniliklerlen Haberdar Olursunuz. \n+çekiliş = Çekiliş Yapar. ', '**Komutlar 5** \n\n+havadurumu = İstediginiz Şehrin Hava Durumunu Gösterir ']; // Sayfalar
   let page = 1; // Sayfa 1
 
   const embed = new Discord.RichEmbed()
   .setColor('RANDOM')
-  .setFooter(`Sayfa ${page} / ${pages.length}`, "https://cdn.discordapp.com/attachments/456201531130118154/461933525906620426/indir.jpg")
+  .setFooter(`Sayfa ${page} / ${pages.length}`, "https://cdn.discordapp.com/attachments/471401753443827722/471722745315590171/OYUNHESAPLOGO.png")
   .setDescription(pages[page-1])
-  .setAuthor("Tunga ", "https://cdn.discordapp.com/attachments/456201531130118154/461933525906620426/indir.jpg")
+  .setAuthor("OyunHesap.NET", "https://cdn.discordapp.com/attachments/471401753443827722/471722745315590171/OYUNHESAPLOGO.png")
 
   message.channel.send(embed).then(msg => {
 
