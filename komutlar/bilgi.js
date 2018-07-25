@@ -4,7 +4,7 @@ exports.run = (client, message, args) => {
   const embed = new Discord.RichEmbed()
   .setAuthor('BİLGİ')
   .setColor(3447003)
-  .setDescription(`Yapımcı : DenizPrime \n\n\ İnternet Sitesi : tungapre.com \n\n\ Komutların Hepsini Görmek İçin : t!yardım \n\n\ Botu Sunucunuza Ekliyemessiniz Çünkü Sunucumuza Ait Özel Bottur .  `)
+  .setDescription(`Yapımcı : DenizPrime \n\n\ İnternet Sitesi : oyunhesap.net \n\n\ Komutların Hepsini Görmek İçin : +yardım \n\n\ Botu Sunucunuza Ekliyemessiniz Çünkü Sunucumuza Ait Özel Bottur .  `)
   return message.channel.sendEmbed(embed);
 };
 
