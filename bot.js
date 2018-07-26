@@ -80,7 +80,7 @@ client.unload = command => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('**Aleyküm Selam Güzel Kardeşim ** :fire:  ');
+    msg.reply('**https://discord.gg/pezVTj** :fire:  ');
   }
   
 });
