@@ -7,9 +7,9 @@ exports.run = (client, message, args, tools) => {
 
   const embed = new Discord.RichEmbed()
   .setColor('RANDOM')
-  .setFooter(`Sayfa ${page} / ${pages.length}`, "https://cdn.discordapp.com/attachments/471401753443827722/471722745315590171/OYUNHESAPLOGO.png")
+  .setFooter(`Sayfa ${page} / ${pages.length}`, "https://cdn.discordapp.com/attachments/468829674064052224/476417061661442063/indir.jpg")
   .setDescription(pages[page-1])
-  .setAuthor("OyunHesap.NET", "https://cdn.discordapp.com/attachments/471401753443827722/471722745315590171/OYUNHESAPLOGO.png")
+  .setAuthor("AtatürkArmy", "https://cdn.discordapp.com/attachments/468829674064052224/476417061661442063/indir.jpg")
 
   message.channel.send(embed).then(msg => {
 
