@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 exports.run = function(client, message, args) {
-  message.reply('Botun Pingi! **' + client.ping + '** ms');
+  message.reply('Senin Pingin! **' + client.ping + '** ms');
 };
 
 exports.conf = {
