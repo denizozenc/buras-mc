@@ -11,7 +11,7 @@ exports.run = (client, message, args) => {
     .setTitle('Çekiliş;')
     .addField('Kazanan:', message.guild.members.random().displayName, true)
     .addField('Ödül:', mesaj, true)
-    .setFooter('Gıda Abi', client.user.avatarURL)
+    .setFooter('Blue Space', client.user.avatarURL)
     .setTimestamp()
     message.channel.send(embed);
         };
